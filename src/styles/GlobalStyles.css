@@ -1,0 +1,184 @@
+/* styles/GlobalStyles.css */
+
+/* Navbar */
+.navbar {
+  background: #2c3e50;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: #18bc9c;
+}
+
+/* Footer with Water Glass Effect - Serious Color Theme */
+.footer {
+  background: rgba(40, 40, 40, 0.8); /* Dark gray for a serious tone */
+  backdrop-filter: blur(15px);
+  color: #d3d3d3; /* Light gray for readability */
+  text-align: center;
+  padding: 12px 0;
+  font-size: 15px;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -3px 12px rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px 10px 0 0;
+  animation: floating 4s infinite alternate ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
+}
+
+/* Home */
+.home {
+  text-align: center;
+  padding: 50px;
+  background-color: #f4f4f4;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+.home p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Report */
+.report {
+  padding: 40px;
+  background: #f9f9f9;
+  min-height: 100vh;
+}
+
+.report h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Browse */
+.browse {
+  padding: 40px;
+  background: #fff;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Case Details */
+.case-details {
+  padding: 40px;
+  background: #f4f4f4;
+  min-height: 100vh;
+}
+
+.case-details h1 {
+  color: #2c3e50;
+}
+
+.case-details p {
+  color: #555;
+  font-size: 18px;
+}
+
+/* Contact */
+.contact {
+  padding: 40px;
+  background: #f9f9f9;
+  min-height: 100vh;
+}
+
+.contact h1 {
+  text-align: center;
+  color: #333;
+}
+
+.contact p {
+  text-align: center;
+  color: #555;
+  font-size: 18px;
+}
+
+/* Missing Card */
+.missing-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.missing-card h3 {
+  color: #2c3e50;
+}
+
+.missing-card p {
+  color: #555;
+}
+
+/* Report Form */
+.report-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 40px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.report-form label {
+  font-size: 16px;
+  color: #333;
+}
+
+.report-form input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.report-form button {
+  background: #18bc9c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.report-form button:hover {
+  background: #149077;
+}
