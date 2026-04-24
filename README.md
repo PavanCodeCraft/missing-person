@@ -43,7 +43,7 @@ This project started as a learning exercise and is actively being developed into
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/PavanCodeCraft/missing-person.git
 
 # Go into the folder
 cd your-repo-name
